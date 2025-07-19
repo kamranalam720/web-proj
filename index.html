@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee shop by kamran </title>
+        <!--  yha par awesome for inserting icon ke leye link kya hu   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--  yha par google font link huwa h  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+    
+    <!-- link style sheet   -->
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <!--yha par header wala code h
+    -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-mug-hot logo -icon" style="color: gold; width: 10px; height: 10px;"></i>
+                <div class="logo-text">Coffee<span>Shop</span></div>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#Product">product</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="nav-button">
+                <a href="#" class="btn btn-secondary">sign In</a>
+                <a href="#" class="btn btn-primary">order online</a>
+            </div>
+        </div>
+    </header>
+    <!-- yha par header ke niche wala part h-->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-subtitle">
+                    <i class="fas fas-seedling"></i>
+                    Eathical sourced Beans
+                </div>
+                <h1 class="hero-title" style="font-size: larger;">Artisan coffee<br><span>Crafte With Passion</span></h1>
+                <p class="hero-title">Discover  single-origin Coffee roasted
+                    to perfection in small batches for exceptional flavor 
+                    experience the journey from bean to cup with our master roaster.
+                </p>
+                <div class="hero-button">
+                    <a href="#products" class="btn btn-primary">Explore our Blends</a>
+                    <a href="#" class="btn btn-secondary">Visit our Cafe</a>
+                </div>
+            </div>
+            <img src="vertical-shot-hot-coffee-with-waffles.jpg" alt="" width="370px">
+        </div>
+    </section>
+
+    <!--  yha se Menu Section  code h-->
+     <section>
+      <div class="container">
+        <h1 class="menu7">Our Menu</h1>
+        <div class="menu" style="align-content: center;">
+          <a href="#" class="card">
+            <img src="mayur-op3-8qlNq-o-unsplash.jpg" alt="Espresso">
+            <h3>Espresso</h3>
+            <p>Strong & bold shot of coffee.</p>
+            <span>$3.00</span>
+            <span class="rating">⭐ 4.5</span>
+          </a>
+    
+          <a href="#" class="card">
+            <img src="front-view-coffee-latte-with-coffee-beans.jpg" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p>Classic Italian coffee with milk foam.</p>
+            <span>$4.00</span>
+            <span class="rating">⭐ 4.5</span>
+          </a>
+    
+          <a href="#" class="card">
+            <img src="cup-coffee-with-heart-drawn-foam.jpg" alt="Latte">
+            <h3>Latte</h3>
+            <p>Smooth coffee with steamed milk.</p>
+            <span>$4.50</span>
+            <span class="rating">⭐ 4.5</span>
+          </a>
+    
+          <a href="#" class="card">
+            <img src="jon-tyson-4XF0PJCXvVA-unsplash (1).jpg" alt="Coffee">
+            <h3>Coffee</h3>
+            <p>Freshly served daily.</p>
+            <span>$2.50</span>
+            <span class="rating">⭐ 4.5</span>
+          </a>
+        </div>
+      </div>
+     </section>
+
+
+  <!--yha par About Section wala code h -->
+   <section id="about" class="about-section">
+    <div class="about-img">
+      <img src="clifford-VobvKmG-StA-unsplash.jpg" alt="About Coffee Shop">
+    </div>
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p>At Coffee Shop, we believe in the perfect blend of beans and ambiance. Join us for a delightful coffee experience made just for you.</p>
+      <ul>
+        <li>✔ Premium coffee beans</li>
+        <li>✔ Fresh bakery daily</li>
+        <li>✔ Cozy workspaces</li>
+      </ul>
+    </div>
+  </section>
+
+
+   <!--  yha se Contact Section wala code -->
+   <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <form class="contact-form" id="contactForm">
+      <input class="btn btn-secondary"  type="text" placeholder="Your Name" name="name" required>
+      <input type="email" placeholder="Your Email" name="email" required>
+      <textarea placeholder="Message" name="message" required></textarea>
+      <button type="submit" class="btn btn-secondary">Send</button>
+      <p class="form-message" id="formMessage"></p>
+    </form>
+  </section>
+    
+     <!--  ye Footer wala part h -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Coffee Shop. All rights reserved.</p>
+      <div class="socials">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
